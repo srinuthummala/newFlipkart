@@ -161,3 +161,26 @@
 2018-03-10 14:55:28,540 [main] INFO pages.LoginPage - ************* login functionality done *****************
 2018-03-10 14:55:36,817 [main] INFO TestCases.LoginPageTest - user successfully logged in
 2018-03-10 14:55:36,819 [main] INFO TestCases.LoginPageTest - =======verify login test method completed==========
+2018-03-10 15:06:25,657 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 15:06:33,227 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 15:06:38,483 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 15:07:01,759 [main] INFO base.TestBase - url launched
+2018-03-10 15:07:02,287 [main] INFO testCases.LoginPageTest - ======started verify login test method==========
+2018-03-10 15:07:02,291 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 15:07:02,295 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 15:07:02,963 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 15:07:03,532 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 15:07:10,281 [main] INFO testCases.LoginPageTest - user successfully logged in
+2018-03-10 15:07:10,281 [main] INFO testCases.LoginPageTest - =======verify login test method completed==========
+2018-03-10 15:07:12,911 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 15:07:17,247 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 15:07:19,689 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 15:07:39,585 [main] INFO base.TestBase - url launched
+2018-03-10 15:07:39,588 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 15:07:39,592 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 15:07:40,184 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 15:07:40,693 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 15:07:40,697 [main] INFO pages.HomePage - setting text into search box
+2018-03-10 15:07:41,092 [main] INFO pages.HomePage - text is placed in seach box and clicking enter
+2018-03-10 15:07:41,644 [main] INFO pages.HomePage - getiing list of all products
+2018-03-10 15:07:54,793 [main] INFO pages.HomePage - looking for product

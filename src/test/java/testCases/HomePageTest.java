@@ -1,4 +1,4 @@
-package TestCases;
+package testCases;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
