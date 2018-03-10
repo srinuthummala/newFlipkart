@@ -6,8 +6,8 @@
 	</listeners>
 	<test name="Test">
 		<classes>
-			<class name="testCases.LoginPageTest" />
-			<class name="testCases.HomePageTest" />	
+			<class name="testCases.MyLoginPageTest" />
+			<class name="testCases.MyHomePageTest" />	
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
