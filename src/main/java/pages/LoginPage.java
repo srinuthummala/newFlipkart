@@ -24,7 +24,7 @@ public class LoginPage extends TestBase {
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
 	}
-	
+	 
 	
 	public HomePage login(String uname, String pass) {
 		
