@@ -9,13 +9,13 @@ import pages.HomePage;
 import pages.LoginPage;
 import utility.Utility;
 
-public class HomePageTest extends TestBase {
-public static Logger log = Utility.getLogger(LoginPageTest.class);
+public class MyHomePageTest extends TestBase {
+public static Logger log = Utility.getLogger(MyHomePageTest.class);
 
 	LoginPage loginPage;
 	HomePage homePage;
 	
-	public HomePageTest() {
+	public MyHomePageTest() {
 		 super();
 	}
 	

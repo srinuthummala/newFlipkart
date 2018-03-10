@@ -13,14 +13,14 @@ import utility.Utility;
 
 
 
-public class LoginPageTest extends TestBase {
-	public static Logger log = Utility.getLogger(LoginPageTest.class);
+public class MyLoginPageTest extends TestBase {
+	public static Logger log = Utility.getLogger(MyLoginPageTest.class);
 
 	
 	LoginPage loginPage;
 	HomePage homePage;
 	
-	public LoginPageTest() {
+	public MyLoginPageTest() {
 		 super();
 	}
 	
