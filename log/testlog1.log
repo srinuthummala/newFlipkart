@@ -44,3 +44,14 @@
 2018-03-10 12:01:13,259 [main] INFO pages.LoginPage - ************* login functionality done *****************
 2018-03-10 12:01:13,297 [main] INFO TestCases.LoginPageTest - Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More
 2018-03-10 12:01:13,298 [main] INFO TestCases.LoginPageTest - =======verify login test method completed==========
+2018-03-10 12:20:24,720 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 12:20:30,196 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 12:20:32,228 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 12:20:39,085 [main] INFO base.TestBase - url launched
+2018-03-10 12:20:39,157 [main] INFO TestCases.LoginPageTest - ======started verify login test method==========
+2018-03-10 12:20:39,161 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 12:20:39,162 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 12:20:39,920 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 12:20:40,525 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 12:20:49,742 [main] INFO TestCases.LoginPageTest - user successfully logged in
+2018-03-10 12:20:49,743 [main] INFO TestCases.LoginPageTest - =======verify login test method completed==========

@@ -12,6 +12,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -45,9 +46,10 @@ public class TestBase {
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
 					System.getProperty("user.dir") + "/src/main/resources/drivers/chromedriver2.33.exe");
-			// options = new ChromeOptions();
+			ChromeOptions options = new ChromeOptions();
 			// options.addArguments("window-size = 1400,800");
 			// options.addArguments("headless");
+			options.addArguments("--disable-notifications");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver",
