@@ -88,3 +88,65 @@
 2018-03-10 12:30:49,775 [main] INFO pages.LoginPage - ************* login functionality done *****************
 2018-03-10 12:30:53,561 [main] INFO TestCases.LoginPageTest - user successfully logged in
 2018-03-10 12:30:53,562 [main] INFO TestCases.LoginPageTest - =======verify login test method completed==========
+2018-03-10 12:50:41,875 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 12:50:46,143 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 12:50:48,363 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 12:51:02,366 [main] INFO base.TestBase - url launched
+2018-03-10 12:52:38,603 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 12:52:41,779 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 12:52:43,998 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 12:52:54,114 [main] INFO base.TestBase - url launched
+2018-03-10 12:52:54,172 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 12:52:54,173 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 12:52:54,955 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 12:52:55,562 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 12:57:20,534 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 12:57:25,651 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 12:57:27,487 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 12:57:41,238 [main] INFO base.TestBase - url launched
+2018-03-10 12:57:44,395 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 12:57:44,396 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 12:57:45,592 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 12:57:46,429 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 13:01:26,962 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 13:01:37,076 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 13:01:39,459 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 13:01:49,559 [main] INFO base.TestBase - url launched
+2018-03-10 13:01:49,673 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 13:01:49,673 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 13:01:50,405 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 13:01:50,861 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 13:01:50,880 [main] INFO pages.HomePage - setting text into search box
+2018-03-10 13:01:54,884 [main] INFO pages.HomePage - text is placed in seach box and clicking
+2018-03-10 13:26:57,594 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 13:27:02,389 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 13:27:04,547 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 13:27:11,521 [main] INFO base.TestBase - url launched
+2018-03-10 13:27:11,747 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 13:27:11,747 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 13:27:12,416 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 13:27:12,807 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 13:27:12,822 [main] INFO pages.HomePage - setting text into search box
+2018-03-10 13:27:13,250 [main] INFO pages.HomePage - text is placed in seach box and clicking enter
+2018-03-10 13:30:36,041 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 13:30:40,020 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 13:30:41,915 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 13:30:53,371 [main] INFO base.TestBase - url launched
+2018-03-10 13:30:53,887 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 13:30:53,887 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 13:30:54,552 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 13:30:55,096 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 13:30:55,116 [main] INFO pages.HomePage - setting text into search box
+2018-03-10 13:31:28,324 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 13:31:32,424 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 13:31:34,507 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 13:31:39,729 [main] INFO base.TestBase - url launched
+2018-03-10 13:31:39,828 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 13:31:39,828 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 13:31:40,733 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 13:31:41,250 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 13:31:41,270 [main] INFO pages.HomePage - setting text into search box
+2018-03-10 13:31:45,256 [main] INFO pages.HomePage - text is placed in seach box and clicking enter
+2018-03-10 13:31:45,608 [main] INFO pages.HomePage - getiing list of all products
+2018-03-10 13:31:46,188 [main] INFO pages.HomePage - looking for product
+2018-03-10 13:31:46,900 [main] INFO pages.HomePage - got the product and clicked

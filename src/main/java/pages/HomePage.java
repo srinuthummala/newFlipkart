@@ -1,6 +1,9 @@
 package pages;
 
+import java.util.List;
+
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -47,7 +50,23 @@ public class HomePage extends TestBase {
 	}
 	
 	public void searchForProduct(String name) {
+		log.info("setting text into search box");
 		setText(txtSearch, name);
+		log.info("text is placed in seach box and clicking enter");
 		txtSearch.sendKeys(Keys.ENTER);
+	}
+	
+	public void selectProductFromResults(String productColor) {
+		log.info("getiing list of all products");
+		List<WebElement> products =driver.findElements(By.xpath("//a[contains(text(),'Moto E3 Power')]"));
+		for(WebElement product: products) {
+			log.info("looking for product");
+			if(product.getAttribute("title").contains(productColor)) {
+				product.click();
+				log.info("got the product and clicked");
+				break;
+			}
+			
+		}
 	}
 }
