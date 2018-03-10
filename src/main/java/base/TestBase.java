@@ -49,8 +49,8 @@ public class TestBase {
 			ChromeOptions options = new ChromeOptions();
 			// options.addArguments("window-size = 1400,800");
 			// options.addArguments("headless");
-			options.addArguments("--disable-notifications");
-			driver = new ChromeDriver();
+			options.addArguments("--disable-infobars");
+			driver = new ChromeDriver(options);
 		} else if (browserName.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver",
 					System.getProperty("user.dir") + "/src/main/resources/drivers/geckodriver.exe");

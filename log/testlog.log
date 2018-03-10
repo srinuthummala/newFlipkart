@@ -55,3 +55,36 @@
 2018-03-10 12:20:40,525 - pages.LoginPage -INFO - ************* login functionality done *****************
 2018-03-10 12:20:49,742 - TestCases.LoginPageTest -INFO - user successfully logged in
 2018-03-10 12:20:49,743 - TestCases.LoginPageTest -INFO - =======verify login test method completed==========
+2018-03-10 12:25:29,106 - base.TestBase -INFO - chrome browser launching
+2018-03-10 12:25:33,350 - base.TestBase -INFO - chrome browser launched
+2018-03-10 12:25:35,145 - base.TestBase -INFO - launching url: https://www.flipkart.com
+2018-03-10 12:25:40,181 - base.TestBase -INFO - url launched
+2018-03-10 12:25:40,510 - TestCases.LoginPageTest -INFO - ======started verify login test method==========
+2018-03-10 12:25:40,512 - pages.LoginPage -INFO - **********started login functionality***************
+2018-03-10 12:25:40,522 - pages.LoginPage -INFO - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 12:25:41,198 - pages.LoginPage -INFO - entering password :  thummala123
+2018-03-10 12:25:41,724 - pages.LoginPage -INFO - ************* login functionality done *****************
+2018-03-10 12:25:49,452 - TestCases.LoginPageTest -INFO - user successfully logged in
+2018-03-10 12:25:49,453 - TestCases.LoginPageTest -INFO - =======verify login test method completed==========
+2018-03-10 12:28:51,202 - base.TestBase -INFO - chrome browser launching
+2018-03-10 12:28:55,199 - base.TestBase -INFO - chrome browser launched
+2018-03-10 12:28:57,107 - base.TestBase -INFO - launching url: https://www.flipkart.com
+2018-03-10 12:29:02,038 - base.TestBase -INFO - url launched
+2018-03-10 12:29:02,272 - TestCases.LoginPageTest -INFO - ======started verify login test method==========
+2018-03-10 12:29:02,274 - pages.LoginPage -INFO - **********started login functionality***************
+2018-03-10 12:29:02,275 - pages.LoginPage -INFO - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 12:29:03,267 - pages.LoginPage -INFO - entering password :  thummala123
+2018-03-10 12:29:03,901 - pages.LoginPage -INFO - ************* login functionality done *****************
+2018-03-10 12:29:11,467 - TestCases.LoginPageTest -INFO - user successfully logged in
+2018-03-10 12:29:11,468 - TestCases.LoginPageTest -INFO - =======verify login test method completed==========
+2018-03-10 12:30:35,367 - base.TestBase -INFO - chrome browser launching
+2018-03-10 12:30:40,456 - base.TestBase -INFO - chrome browser launched
+2018-03-10 12:30:42,230 - base.TestBase -INFO - launching url: https://www.flipkart.com
+2018-03-10 12:30:48,279 - base.TestBase -INFO - url launched
+2018-03-10 12:30:48,526 - TestCases.LoginPageTest -INFO - ======started verify login test method==========
+2018-03-10 12:30:48,528 - pages.LoginPage -INFO - **********started login functionality***************
+2018-03-10 12:30:48,528 - pages.LoginPage -INFO - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 12:30:49,277 - pages.LoginPage -INFO - entering password :  thummala123
+2018-03-10 12:30:49,775 - pages.LoginPage -INFO - ************* login functionality done *****************
+2018-03-10 12:30:53,561 - TestCases.LoginPageTest -INFO - user successfully logged in
+2018-03-10 12:30:53,562 - TestCases.LoginPageTest -INFO - =======verify login test method completed==========

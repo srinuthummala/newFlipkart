@@ -1,6 +1,7 @@
 package pages;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -14,8 +15,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//span[contains(text(),'Srinu')]")
 	WebElement lnkUser;
 	
-	@FindBy(xpath="//div[@id='navmenu']//li/a[text()='Companies']")
-	WebElement ddCompanies;
+	@FindBy(xpath="//input[@title='Search for products, brands and more']")
+	WebElement txtSearch;
+	
 	@FindBy(xpath="//a[@title='Companies']/following-sibling::ul/li/a[@title='New Company']")
 	WebElement optoinNewCompany;
 	@FindBy(xpath="//a[@title='Companies']/following-sibling::ul/li/a[@title='Combined Form']")
@@ -44,4 +46,8 @@ public class HomePage extends TestBase {
 		return lnkUser.isDisplayed();
 	}
 	
+	public void searchForProduct(String name) {
+		setText(txtSearch, name);
+		txtSearch.sendKeys(Keys.ENTER);
+	}
 }
