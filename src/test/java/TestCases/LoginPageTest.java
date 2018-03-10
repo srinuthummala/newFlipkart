@@ -36,6 +36,8 @@ public class LoginPageTest extends TestBase {
 	public void verifyLogin() {
 		log.info("======started verify login test method==========");
 		loginPage.login(prop.getProperty("userid"),prop.getProperty("password"));
+		Assert.assertTrue(homePage.isUserLoggedIn());
+		log.info("user successfully logged in");
 		log.info("=======verify login test method completed==========");
 
 	}

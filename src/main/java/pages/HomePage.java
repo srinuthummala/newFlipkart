@@ -1,7 +1,6 @@
 package pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -12,8 +11,8 @@ import utility.Utility;
 public class HomePage extends TestBase {
 	public static Logger log = Utility.getLogger(HomePage.class);
 	
-	@FindBy(xpath="//div[@class='noprint']//table//tr//td[4]/a/i")
-	WebElement btnLogout;
+	@FindBy(xpath="//span[contains(text(),'Srinu')]")
+	WebElement lnkUser;
 	
 	@FindBy(xpath="//div[@id='navmenu']//li/a[text()='Companies']")
 	WebElement ddCompanies;
@@ -41,5 +40,8 @@ public class HomePage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
+	public boolean isUserLoggedIn() {
+		return lnkUser.isDisplayed();
+	}
 	
 }

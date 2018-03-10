@@ -1,1 +1,46 @@
 2018-03-10 11:22:59,891 - base.TestBase -INFO - chrome browser launching
+2018-03-10 11:45:50,062 - base.TestBase -INFO - chrome browser launching
+2018-03-10 11:46:05,583 - base.TestBase -INFO - chrome browser launched
+2018-03-10 11:46:13,139 - base.TestBase -INFO - launching url: https://www.flipkart.com
+2018-03-10 11:47:20,575 - base.TestBase -INFO - chrome browser launching
+2018-03-10 11:47:35,619 - base.TestBase -INFO - chrome browser launched
+2018-03-10 11:47:42,060 - base.TestBase -INFO - launching url: https://www.flipkart.com
+2018-03-10 11:47:50,102 - base.TestBase -INFO - url launched
+2018-03-10 11:47:50,812 - TestCases.LoginPageTest -INFO - ======started verify login test method==========
+2018-03-10 11:47:50,816 - pages.LoginPage -INFO - **********started login functionality***************
+2018-03-10 11:47:50,818 - pages.LoginPage -INFO - entering username :  thummala
+2018-03-10 11:47:51,879 - pages.LoginPage -INFO - entering password :  thummala
+2018-03-10 11:47:52,965 - pages.LoginPage -INFO - ************* login functionality done *****************
+2018-03-10 11:47:52,968 - TestCases.LoginPageTest -INFO - =======verify login test method completed==========
+2018-03-10 11:56:38,171 - base.TestBase -INFO - chrome browser launching
+2018-03-10 11:56:44,659 - base.TestBase -INFO - chrome browser launched
+2018-03-10 11:56:46,334 - base.TestBase -INFO - launching url: https://www.flipkart.com
+2018-03-10 11:56:52,677 - base.TestBase -INFO - url launched
+2018-03-10 11:56:52,805 - TestCases.LoginPageTest -INFO - ======started verify login test method==========
+2018-03-10 11:56:52,806 - pages.LoginPage -INFO - **********started login functionality***************
+2018-03-10 11:56:52,808 - pages.LoginPage -INFO - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 11:56:53,929 - pages.LoginPage -INFO - entering password :  thummala123
+2018-03-10 11:56:54,367 - pages.LoginPage -INFO - ************* login functionality done *****************
+2018-03-10 11:56:54,370 - TestCases.LoginPageTest -INFO - =======verify login test method completed==========
+2018-03-10 12:00:18,814 - base.TestBase -INFO - chrome browser launching
+2018-03-10 12:00:23,781 - base.TestBase -INFO - chrome browser launched
+2018-03-10 12:00:25,749 - base.TestBase -INFO - launching url: https://www.flipkart.com
+2018-03-10 12:00:30,868 - base.TestBase -INFO - url launched
+2018-03-10 12:00:31,139 - TestCases.LoginPageTest -INFO - ======started verify login test method==========
+2018-03-10 12:00:31,143 - pages.LoginPage -INFO - **********started login functionality***************
+2018-03-10 12:00:31,147 - pages.LoginPage -INFO - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 12:00:31,929 - pages.LoginPage -INFO - entering password :  thummala123
+2018-03-10 12:00:32,455 - pages.LoginPage -INFO - ************* login functionality done *****************
+2018-03-10 12:00:32,515 - TestCases.LoginPageTest -INFO - Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More
+2018-03-10 12:00:32,516 - TestCases.LoginPageTest -INFO - =======verify login test method completed==========
+2018-03-10 12:00:59,742 - base.TestBase -INFO - chrome browser launching
+2018-03-10 12:01:04,439 - base.TestBase -INFO - chrome browser launched
+2018-03-10 12:01:06,066 - base.TestBase -INFO - launching url: https://www.flipkart.com
+2018-03-10 12:01:11,992 - base.TestBase -INFO - url launched
+2018-03-10 12:01:12,080 - TestCases.LoginPageTest -INFO - ======started verify login test method==========
+2018-03-10 12:01:12,081 - pages.LoginPage -INFO - **********started login functionality***************
+2018-03-10 12:01:12,082 - pages.LoginPage -INFO - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 12:01:12,810 - pages.LoginPage -INFO - entering password :  thummala123
+2018-03-10 12:01:13,259 - pages.LoginPage -INFO - ************* login functionality done *****************
+2018-03-10 12:01:13,297 - TestCases.LoginPageTest -INFO - Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More
+2018-03-10 12:01:13,298 - TestCases.LoginPageTest -INFO - =======verify login test method completed==========
