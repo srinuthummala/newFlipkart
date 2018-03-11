@@ -1,6 +1,7 @@
 package pages;
 
 import java.util.List;
+import java.util.Set;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -67,6 +68,20 @@ public class HomePage extends TestBase {
 				break;
 			}
 			
+		}
+	}
+	
+	public void windowHandle() {
+		String parentWindow = driver.getWindowHandle();
+		Set<String> allWindows =driver.getWindowHandles();
+		for(String window : allWindows) {
+			if(parentWindow.equals(window)) {
+				driver.switchTo().window(window);
+				if(driver.getTitle().contains("Moto E3 Power")) {
+					break;
+
+				}
+			}
 		}
 	}
 }
