@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -22,8 +23,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//input[@title='Search for products, brands and more']")
 	WebElement txtSearch;
 	
-	@FindBy(xpath="//a[@title='Companies']/following-sibling::ul/li/a[@title='New Company']")
-	WebElement optoinNewCompany;
+	@FindBy(xpath="//ul[contains(@class, 'col-11-12 _1PBbw8')]/li[1]")
+	WebElement lnkSearchedItemLink;
+	
 	@FindBy(xpath="//a[@title='Companies']/following-sibling::ul/li/a[@title='Combined Form']")
 	WebElement optoinCombinedForm;
 	@FindBy(xpath="//a[@title='Companies']/following-sibling::ul/li/a[@title='Full Search Form']")
@@ -53,8 +55,14 @@ public class HomePage extends TestBase {
 	public void searchForProduct(String name) {
 		log.info("setting text into search box");
 		setText(txtSearch, name);
-		log.info("text is placed in seach box and clicking enter");
-		txtSearch.sendKeys(Keys.ENTER);
+		log.info("performin mouse hover");
+		Actions action= new Actions(driver);
+		action.moveToElement(txtSearch).perform();
+		log.info("clicking on link");
+		action.moveToElement(lnkSearchedItemLink).click().perform();
+		log.info("clicked on search item");
+		//log.info("text is placed in seach box and clicking enter");
+		//txtSearch.sendKeys(Keys.ENTER);
 	}
 	
 	public void selectProductFromResults(String productColor) {
@@ -72,14 +80,17 @@ public class HomePage extends TestBase {
 	}
 	
 	public void windowHandle() {
+		log.info("parent window finding");
 		String parentWindow = driver.getWindowHandle();
 		Set<String> allWindows =driver.getWindowHandles();
+		log.info("set of windows opend by driver"+allWindows.size());
 		for(String window : allWindows) {
-			if(parentWindow.equals(window)) {
+			if(!parentWindow.equals(window)) {
+				log.info("switching to child window");
 				driver.switchTo().window(window);
 				if(driver.getTitle().contains("Moto E3 Power")) {
+					log.info("switched req window");
 					break;
-
 				}
 			}
 		}

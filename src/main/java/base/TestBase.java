@@ -59,8 +59,8 @@ public class TestBase {
 
 		log.info(browserName + " browser launched");
 
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(35, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		String url = prop.getProperty("url");
