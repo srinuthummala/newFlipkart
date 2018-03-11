@@ -184,3 +184,28 @@
 2018-03-10 15:07:41,092 [main] INFO pages.HomePage - text is placed in seach box and clicking enter
 2018-03-10 15:07:41,644 [main] INFO pages.HomePage - getiing list of all products
 2018-03-10 15:07:54,793 [main] INFO pages.HomePage - looking for product
+2018-03-10 18:08:20,792 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 18:08:42,398 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 18:08:45,044 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 18:09:06,318 [main] INFO base.TestBase - url launched
+2018-03-10 18:09:08,589 [main] INFO TestCases.MyLoginPageTest - ======started verify login test method==========
+2018-03-10 18:09:08,590 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 18:09:08,591 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 18:09:18,473 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 18:09:20,528 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 18:09:33,366 [main] INFO TestCases.MyLoginPageTest - user successfully logged in
+2018-03-10 18:09:33,368 [main] INFO TestCases.MyLoginPageTest - =======verify login test method completed==========
+2018-03-10 18:09:44,862 [main] INFO base.TestBase - chrome browser launching
+2018-03-10 18:09:59,567 [main] INFO base.TestBase - chrome browser launched
+2018-03-10 18:10:01,648 [main] INFO base.TestBase - launching url: https://www.flipkart.com
+2018-03-10 18:10:09,966 [main] INFO base.TestBase - url launched
+2018-03-10 18:10:09,971 [main] INFO pages.LoginPage - **********started login functionality***************
+2018-03-10 18:10:09,972 [main] INFO pages.LoginPage - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 18:10:10,582 [main] INFO pages.LoginPage - entering password :  thummala123
+2018-03-10 18:10:11,099 [main] INFO pages.LoginPage - ************* login functionality done *****************
+2018-03-10 18:10:11,102 [main] INFO pages.HomePage - setting text into search box
+2018-03-10 18:10:18,597 [main] INFO pages.HomePage - text is placed in seach box and clicking enter
+2018-03-10 18:10:21,131 [main] INFO pages.HomePage - getiing list of all products
+2018-03-10 18:10:21,423 [main] INFO pages.HomePage - looking for product
+2018-03-10 18:10:21,439 [main] INFO pages.HomePage - looking for product
+2018-03-10 18:10:23,052 [main] INFO pages.HomePage - got the product and clicked

@@ -184,3 +184,28 @@
 2018-03-10 15:07:41,092 - pages.HomePage -INFO - text is placed in seach box and clicking enter
 2018-03-10 15:07:41,644 - pages.HomePage -INFO - getiing list of all products
 2018-03-10 15:07:54,793 - pages.HomePage -INFO - looking for product
+2018-03-10 18:08:20,792 - base.TestBase -INFO - chrome browser launching
+2018-03-10 18:08:42,398 - base.TestBase -INFO - chrome browser launched
+2018-03-10 18:08:45,044 - base.TestBase -INFO - launching url: https://www.flipkart.com
+2018-03-10 18:09:06,318 - base.TestBase -INFO - url launched
+2018-03-10 18:09:08,589 - TestCases.MyLoginPageTest -INFO - ======started verify login test method==========
+2018-03-10 18:09:08,590 - pages.LoginPage -INFO - **********started login functionality***************
+2018-03-10 18:09:08,591 - pages.LoginPage -INFO - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 18:09:18,473 - pages.LoginPage -INFO - entering password :  thummala123
+2018-03-10 18:09:20,528 - pages.LoginPage -INFO - ************* login functionality done *****************
+2018-03-10 18:09:33,366 - TestCases.MyLoginPageTest -INFO - user successfully logged in
+2018-03-10 18:09:33,368 - TestCases.MyLoginPageTest -INFO - =======verify login test method completed==========
+2018-03-10 18:09:44,862 - base.TestBase -INFO - chrome browser launching
+2018-03-10 18:09:59,567 - base.TestBase -INFO - chrome browser launched
+2018-03-10 18:10:01,648 - base.TestBase -INFO - launching url: https://www.flipkart.com
+2018-03-10 18:10:09,966 - base.TestBase -INFO - url launched
+2018-03-10 18:10:09,971 - pages.LoginPage -INFO - **********started login functionality***************
+2018-03-10 18:10:09,972 - pages.LoginPage -INFO - entering username :  srinivasulu.thummala@gmail.com	
+2018-03-10 18:10:10,582 - pages.LoginPage -INFO - entering password :  thummala123
+2018-03-10 18:10:11,099 - pages.LoginPage -INFO - ************* login functionality done *****************
+2018-03-10 18:10:11,102 - pages.HomePage -INFO - setting text into search box
+2018-03-10 18:10:18,597 - pages.HomePage -INFO - text is placed in seach box and clicking enter
+2018-03-10 18:10:21,131 - pages.HomePage -INFO - getiing list of all products
+2018-03-10 18:10:21,423 - pages.HomePage -INFO - looking for product
+2018-03-10 18:10:21,439 - pages.HomePage -INFO - looking for product
+2018-03-10 18:10:23,052 - pages.HomePage -INFO - got the product and clicked
